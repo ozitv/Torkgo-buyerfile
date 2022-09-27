@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TorkGo &mdash; Documentation</title>
+  <link rel="icon" type="image/png" href="./img/favicon.png" sizes="16x16">
+  <link rel="alternate" type="application/rss+xml" title="frittt.com" href="feed/index.html">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/prettify.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div style="text-align:center; padding: 15px 0;">
+      <img style="padding:5px 0;" src="img/logo.png" alt="" />
+    </div>
+    <header>
+      <div class="container">
+        <h2 class="lone-header">TorkGo Documentation</h2>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <ul class="docs-nav">
+          <li><strong>Getting Started</strong></li>
+          <li><a href="#welcome" class="cc-active">Welcome</a></li>
+          <li><a href="#features" class="cc-active">Features</a></li>
+          <li><a href="#folder" class="cc-active">Folder Arrange</a></li>
+          <li class="separator"></li>
+          <li><strong>Instalation</strong></li>
+          <li><a href="#upload" class="cc-active">Upload</a></li>
+          <li><a href="#fonts" class="cc-active">Fonts</a></li>
+          <li><a href="#css" class="cc-active">CSS File</a></li>
+          <li><a href="#js" class="cc-active">JS File</a></li>
+          <li><strong>Customization</strong></li>
+          <li><a href="#logotype" class="cc-active">Logo Change</a></li>
+          <li><a href="#menubar" class="cc-active">Menu Bar</a></li>
+          <li><a href="#section" class="cc-active">Section Styles</a></li>
+          <li><a href="#utility" class="cc-active">TorkGo Utility</a></li>
+          <li><a href="#copyright" class="cc-active">Change Copyright</a></li>
+          <li><a href="#contact-form" class="cc-active">Contact Email</a></li>
+        </ul>
+        <div class="docs-content">
+          <h2> Getting Started</h2>
+          <h3 id="welcome"> Welcome</h3>
+          <p>Thanks for purchasing our template :)</p>
+
+          <p> It is our great pleasure that you purchased our template. And we want to tell you that you don't need to
+            write any codes for this template. Just follow some instructions for customizing the template.</p>
+          <p>If you have any questions, feel free to contact us at <a
+              href="mailto:support@thetork.com"><b>mailto:support@thetork.com</b></a>.</p>
+          <h3 id="features"> Features</h3>
+          <ul>
+            <li>Different Home Pages</li>
+            <li>Total 24+ HTML Files</li>
+            <li>Fully responsive</li>
+            <li>Clear & Neat design</li>
+            <li>Latest Bootstrap 5.X Based</li>
+            <li>Font Awesome Icon</li>
+            <li>Smooth animation</li>
+            <li>SEO Friendly Code</li>
+            <li>Optimize Speed</li>
+            <li>Browser compatibility (IE10+, Chrome, Safari, Firefox, Opera)</li>
+            <li>Well documented</li>
+          </ul>
+          <h3 id="folder">Folder Arrange</h3>
+          <p>Unzip the archive and find out the folder "buyer-file". There are all the template files in this folder.
+            You can open the following files for viewing in browser.
+          </p>
+          <ol>
+            <li><b>assets/css</b> — folder with css files.</li>
+            <li><b>assets/fonts</b> — folder with icon fonts.</li>
+            <li><b>assets/images</b> — folder with image files.</li>
+            <li><b>assets/js</b> — folder with Javascript files.</li>
+            <li><b>assets/sass</b> — folder with SCSS files.</li>
+            <br>
+            <li><b>index.html</b> — Home Page.</li>
+            <li><b>index-2.html</b> — Home Page 2.</li>
+            <br />
+            <li>and others necessery HTML Files</li>.<br />
+          </ol>
+          <hr>
+          <h3 id="upload">Installation</h3>
+          <h4>01. FTP Upload</h4>
+          <ul>
+            <li>
+              Open Your FTP manager and connect to your hosting
+            </li>
+            <li>
+              Browse to required directory(Normally public_html)
+            </li>
+            <li>
+              Upload the files inside <b>buyer-file folder
+            </li>
+          </ul>
+          <br>
+          <h4>02. Pages</h4>
+          <img src="img/all-html.png" alt="all html pages">
+          <br>
+          <br>
+          <h4 id="fonts">03. Fonts</h4>
+          <p>We've used google font in TorkGo template . You can Change it with any google fonts that you preffer & also
+            you can add custom font in sass file---- <code>sass/base/fonts.scss</code></p>
+          <br>
+          <pre class="prettyprint prettyprinted">
+      <span style="color: #3bc4ee">
+        //== all fonts importing
+        @import
+        url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </span>
+    </pre>
+          <br>
+          <h4 id="css"> 05. Source File (CSS)</h4>
+          <pre class="prettyprint prettyprinted">
+    &lt;!-- favicon --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;assets/images/favicon.png&quot; type=&quot;image/x-icon&quot;&gt;
+
+    &lt;!-- vendors css --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/bootstrap.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/aos.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/all.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/swiper-bundle.min.css&quot;&gt;
+
+    &lt;!-- main css for template --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/style.css&quot;&gt;
+    </pre>
+          <h3>
+            <h4 id="js"> 06. Source File (JS)</h4>
+            <pre class="prettyprint prettyprinted" style="margin-bottom:50px">
+  &lt;!-- vendor plugins --&gt;
+  &lt;script src=&quot; assets/js/jquery-3.6.0.min.js&quot;&gt;
+  &lt;/script&gt;
+  &lt;script src=&quot;assets/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;assets/js/all.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;assets/js/swiper-bundle.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;assets/js/aos.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;assets/js/purecounter.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;assets/js/custom.js&quot;&gt;&lt;/script&gt;
+    </pre>
+            <br>
+            <h3 id="logotype">Logo change</h3>
+            <p>Here is your main logo code. To add your logo, replace <b>logo.png</b> from <b>images/logo/</b> directory
+              with
+              your logo in PNG format.</p>
+            <pre class="prettyprint">&lt;img src="assets/images/logo/logo.png" alt="logo"&gt;</pre><br />
+            <h5><i>Note: Keep your logo inside the <b>./assets/imaegs/logo</b> folder. The logo size should be minimum
+                150 X 65
+                pixel.</i></h5>
+            <br />
+            <h3 id="menubar"> Change Menubar</h3>
+
+            <p>This is Menu navigation codes.</p>
+            <pre class="prettyprint">
+  &lt;ul class=&quot;menu&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;javascript:void(0);&quot;&gt;Home&lt;/a&gt;
+        &lt;ul class=&quot;submenu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home 1&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;index-2.html&quot;&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;javascript:void(0);&quot;&gt;Project&lt;/a&gt;
+        &lt;ul class=&quot;submenu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;project.html&quot;&gt;Project 1&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;project-2.html&quot;&gt;Project 2&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;project-details.html&quot;&gt;Project Details&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;apply-project.html&quot;&gt;Apply for Project&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;tokenomics.html&quot;&gt;Tokenomics&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;javascript:void(0);&quot;&gt;Stacking&lt;/a&gt;
+        &lt;ul class=&quot;submenu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;stacking.html&quot;&gt;Stacking&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;farming.html&quot;&gt;Farming&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;javascript:void(0);&quot;&gt;Pages&lt;/a&gt;
+        &lt;ul class=&quot;submenu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;roadmap.html&quot;&gt;Roadmap&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;roadmap-2.html&quot;&gt;Roadmap 2&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;kyc.html&quot;&gt;KYC&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;tier.html&quot;&gt;Tier&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;faq.html&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;leaderboard.html&quot;&gt;Leaderboard&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=&quot;javascript:void(0);&quot;&gt;Team&lt;/a&gt;
+                &lt;ul class=&quot;submenu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;team.html&quot;&gt;Team&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;team-member.html&quot;&gt;Team member&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                &lt;a href=&quot;javascript:void(0);&quot;&gt;Account&lt;/a&gt;
+                &lt;ul class=&quot;submenu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;signup.html&quot;&gt;Sign Up&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;login.html&quot;&gt;Log In&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;reset-pass.html&quot;&gt;Reset Pass&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;404.html&quot;&gt;404&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;coming-soon.html&quot;&gt;Coming Soon&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;javascript:void(0);&quot;&gt;Blog&lt;/a&gt;
+        &lt;ul class=&quot;submenu&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Blog Single&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    </pre>
+
+
+            <p>To change the Menu item or menu name you have to edit in the tag <b>&lt;li&gt;&lt;a
+                href=&quot;#&quot;&gt;Your Menu Name &lt;/a&gt;&lt;/li&gt;</b> </p>
+            <p>If you wanna delete a menu item from the menu just remove the menu item above</p>
+            <br /><br />
+
+            <h3 id="section">Section Styles</h3>
+            <p>Here is your section structure.</p>
+            <pre class="prettyprint">
+      &lt;section class="section-name padding-top padding-bottom"&gt;
+        &lt;div class="container"&gt;
+          &lt;div class="section-header"&gt;					
+              .....
+          &lt;/div&gt;
+
+          &lt;div class="section-wrapper"&gt;
+
+          ...sections all content goes there
+
+          &lt;/div&gt;
+
+        &lt;/div&gt;
+      &lt;/section&gt;
+    </pre>
+            <p>If you need diffrent style of section header - just you add the utility classes<b> "section-header--left
+                or section-header--middle" </b>class</p>
+            <p>In the <b>class="section-class"</b> you can replace with your desired class.</p>
+            <p>the class <b>padding-top and padding-bottom </b> is the space between each sections.</p>
+            <p>And in the <b>section-header</b> div you can add your heading of sections and tagline of sections.</p>
+            <p>You can add your content on the 2nd <b>sectionname__wrapper</b> div.</p>
+
+
+            <br /><br />
+            <h3>Section With Background</h3>
+            <pre class="prettyprint">
+  &lt;section class="section-name bg--primary"&gt;
+    &lt;div class="container"&gt;
+      ...
+    &lt;/div&gt;
+  &lt;/section&gt;	  
+      </pre>
+            <p>you can select secondary background dark color. To add color, just simply add the
+              class
+              <b>bg--primary</b> to the section class.
+            </p><br /><br />
+
+            <h3 id="utility"> Utility Classes</h3>
+            <p>You can use next modification classes to set block margins and paddings:</p><br />
+            <b>margin-top</b> <br />
+            <p>mt-1 ... mt-5</p>
+
+            <b>margin-bottom</b> <br />
+            <p>mb-1 ... mb-5</p>
+
+            <b>padding-top</b> <br />
+            <p>pt-1 ... pt-5</p>
+
+            <b>padding-bottom</b> <br />
+            <p>pb-1 ... pb-5</p><br /><br />
+
+
+            </br>
+            <h4 id="copyright">08. Change Copyright</h4>
+            <p>Change the copy right text as your preference like below</p>
+            <pre class="prettyprint prettyprinted">
+         &lt;div class=&quot;footer__copyright&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;text-center py-4&quot;&gt;
+                    &lt;p class=&quot; mb-0&quot;&gt;TorkGo &copy; 2022 | All Rights Reserved &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    </pre>
+          </h3>
+          <h3>Support</h3>
+          <p>If you have any questions, feel free to contact us at <a
+              href="mailto:mailto:support@thetork.com"><b>mailto:support@thetork.com</b></a>.</p>
+
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="">
+        <p>&copy; 2022 All Rights Reserved. Designed by TheTork</p>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/layout.js"></script>
+</body>
+
+</html>
